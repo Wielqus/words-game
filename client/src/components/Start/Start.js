@@ -6,7 +6,7 @@ import './Start.css';
 const Start =(props)=>{
     return(
     <div>
-    <h1>Welcome in scrable game</h1>
+    <h1>Welcome in words game</h1>
     <div className="instruction">
         <h2>How to play</h2>
         <article className="instruction-article">

@@ -37,7 +37,7 @@ class ComputerSection extends Component {
   render() {
     return (
       <section className="computerSection">
-            <header  className="sideHeader">Computer Side</header>
+            <header  className="sideHeader">Computer Side <span><FontAwesomeIcon icon="check" /></span></header>
             <header className="sideMiniHeader">Points:{this.state.Points}</header>
               <main className="userSide">
               <section className="userAnsversList">
