@@ -1,0 +1,35 @@
+.letter {
+    background-color: black;
+    border: 2px solid grey;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    margin:2px;
+    cursor: pointer;
+    position: relative;
+}
+.letter:hover{
+    border-color: white;
+}
+.letter:focus {
+    outline: none;
+  }
+.value{
+    position:absolute;
+    bottom:2%;
+    right:2%;
+    font-size:10px;
+
+}
+.selected{
+    border-color:yellow;
+    cursor: default;
+}
+.letter:disabled{
+      color:grey;
+      cursor:default;
+  }
+  .letter:disabled:hover{
+      border: 2px solid grey;
+  }

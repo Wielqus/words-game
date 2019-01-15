@@ -1,0 +1,51 @@
+.ansverBox{
+    margin:10px;
+    display:flex;
+    width:100%;
+}
+
+.ansver{
+    background-color: #000000;
+    color:white;
+    border:none;
+    font-size:16px;
+    width:50%;
+}
+.button{
+    background-color: black;
+    border: 2px solid grey;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+    font-size:16px;
+    width:25%;
+}
+.button:hover{
+    border-color: white;
+}
+.button:focus {
+    outline: none;
+  }
+  .SpinnerBox{
+    width:4vh;
+    height: 4vh;
+  }
+  .field{
+    position:relative;
+    padding-bottom:20px;
+  }
+  .field>label{
+      position: absolute;
+      bottom:0px;
+      left:0px;
+      font-size:12px;
+  }
+  .button:disabled{
+      color:grey;
+      cursor:default;
+  }
+  .button:disabled:hover{
+      border: 2px solid grey;
+  }

@@ -1,0 +1,19 @@
+*{
+  font-family: 'Bungee', cursive;
+  color:white;
+}
+body{
+  background-color: black;
+  padding:20px;
+}
+.app>section{
+  min-height:40vh;
+  justify-content:center;
+}
+.app>section:first-child{
+  border-bottom:3px solid white;
+}
+.sideHeader{
+  font-size:4vh;
+  width:100%;
+}
