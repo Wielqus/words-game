@@ -38,7 +38,7 @@ class ComputerSection extends Component {
   render() {
     return (
       <section className="computerSection">
-            <header  className="sideHeader">Computer Side <a href="https://github.com/Wielqus/words-game" target="blank" alt="See code on my github" title="See code on my github"><FontAwesomeIcon className="gitHubIcon" icon="github" /></a></header>
+            <header  className="sideHeader">Computer Side <a href="https://github.com/Wielqus/words-game" className="gitHubIcon" target="blank" alt="See code on my github" ><img alt="See code on my github"  src="images/git-icon.svg" /></a></header>
             <header className="sideMiniHeader">Points:{this.state.Points}</header>
               <main className="userSide">
               <section className="userAnsversList">
