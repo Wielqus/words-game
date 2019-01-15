@@ -3,4 +3,6 @@ An application allows user to create words from random letters and take a compet
 
 Project is created with ReactJs and ExpressJs
 
+https://react-words-game.herokuapp.com/
+
 
