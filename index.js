@@ -8,7 +8,7 @@ const port = process.env.PORT || 5000
 
 const server = require('http').Server(app);
 
-const scrableRoutes = require("./routes/scrable");
+const scrableRoutes = require("./server/routes/scrable");
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended:false}));
