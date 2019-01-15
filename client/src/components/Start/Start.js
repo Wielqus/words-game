@@ -11,7 +11,7 @@ const Start =(props)=>{
         <h2>How to play</h2>
         <article className="instruction-article">
             <p>
-                Make words by selecting letters in letter box. Selected letters will be showed in an input with counted points. You can clear input
+                Make words by selecting letters in letter box. Selected letters will be shown in a field with counted points. You can clear a word
                 by clicking "clear" button.Click "submit" to check your word.
             </p>
             <img alt="letters box" className="instruction-image" src="images/lettersBox.png" />
