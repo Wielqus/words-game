@@ -3,6 +3,7 @@ import AnsversList from '../AnsversList/AnsversList';
 import Letters from '../../data/letters/letters';
 import './ComputerSection.css';
 import axios from "axios";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 
 class ComputerSection extends Component {

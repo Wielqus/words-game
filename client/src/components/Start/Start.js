@@ -11,8 +11,8 @@ const Start =(props)=>{
         <h2>How to play</h2>
         <article className="instruction-article">
             <p>
-                Create word by select letters in letters box.Selected letters will be show in input with counted points.You can clear input
-                by clicked "clear" button.When you sure about word, click "submit" button to check you word.
+                Make words by selecting letters in letter box. Selected letters will be showed in an input with counted points. You can clear input
+                by clicking "clear" button.Click "submit" to check your word.
             </p>
             <img alt="letters box" className="instruction-image" src="images/lettersBox.png" />
             <p>
@@ -20,11 +20,11 @@ const Start =(props)=>{
             </p>
             <img alt="user words" className="instruction-image" src="images/userWords.png" />
             <p>
-                After you turn, computer will be create his own word.You can see words created by computer on "Computer words" field.
+                After you turn, computer will create his own word. You can see words created by computer on "Computer words" field.
             </p>
             <img alt="computer words " className="instruction-image" src="images/computerWords.png" />
             <p>
-                    The winner is player who get 100 points
+                    The winner is player who gets 100 points. Good Luck.
             </p>
         </article>
     </div>
